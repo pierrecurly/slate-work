@@ -76,6 +76,7 @@ html, body {
     display: block;
     max-width: 100%;
     margin-bottom: $logo-margin;
+    margin: 10px auto;
   }
 
   &>.search {
@@ -404,7 +405,7 @@ html, body {
       vertical-align: top;
       line-height: 1.6;
       code {
-        white-space: nowrap;
+        word-break: keep-all;
       }
     }
 
